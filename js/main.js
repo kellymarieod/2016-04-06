@@ -11,3 +11,10 @@ $(document).ready( function() {
     $("#animals").append("  <img src='images/cat.jpg' alt='cat in a roll' class='animal' />");
   });
 });
+
+
+$(document).ready( function() {
+  $("#woof").click( function() {
+    $("#animals").append("  <img src='images/puppy.jpg' alt='bulldog puppy' class='animal' />");
+  });
+});
